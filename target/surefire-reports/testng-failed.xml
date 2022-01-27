@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [WalletHub - Assignment #1]">
+  <listeners>
+    <listener class-name="com.listners.ListenerTestNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Facebook test case(failed)">
+    <classes>
+      <class name="com.faceBookTestCases.FaceBookTest">
+        <methods>
+          <include name="postStatus" invocation-numbers="0"/>
+          <include name="pageFactoryInitialization"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="loginUser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.faceBookTestCases.FaceBookTest -->
+    </classes>
+  </test> <!-- Facebook test case(failed) -->
+</suite> <!-- Failed suite [WalletHub - Assignment #1] -->

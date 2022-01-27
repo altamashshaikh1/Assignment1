@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalletHub - Assignment #1" duration-ms="25882" started-at="2022-01-25T18:44:38Z" finished-at="2022-01-25T18:45:04Z">
+    <groups>
+      <group name="Facebook - User login">
+        <method signature="FaceBookTest.loginUser(java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="loginUser" class="com.faceBookTestCases.FaceBookTest"/>
+      </group> <!-- Facebook - User login -->
+      <group name="Facebook - Post Status">
+        <method signature="FaceBookTest.postStatus(java.lang.String, java.lang.String)[pri:1, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="postStatus" class="com.faceBookTestCases.FaceBookTest"/>
+      </group> <!-- Facebook - Post Status -->
+    </groups>
+    <test name="Facebook test case" duration-ms="25882" started-at="2022-01-25T18:44:38Z" finished-at="2022-01-25T18:45:04Z">
+      <class name="com.faceBookTestCases.FaceBookTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="setUp" is-config="true" duration-ms="8" started-at="2022-01-25T18:44:38Z" finished-at="2022-01-25T18:44:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="beforeTest" is-config="true" duration-ms="3417" started-at="2022-01-25T18:44:38Z" finished-at="2022-01-25T18:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="pageFactoryInitialization()[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="pageFactoryInitialization" is-config="true" duration-ms="19" started-at="2022-01-25T18:44:42Z" finished-at="2022-01-25T18:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageFactoryInitialization -->
+        <test-method status="PASS" signature="loginUser(java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="loginUser" duration-ms="3775" started-at="2022-01-25T18:44:42Z" description="Verify facebook account login" finished-at="2022-01-25T18:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="afterMethod" is-config="true" duration-ms="26" started-at="2022-01-25T18:44:46Z" finished-at="2022-01-25T18:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUser status=SUCCESS method=FaceBookTest.loginUser(java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="postStatus(java.lang.String, java.lang.String)[pri:1, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="postStatus" duration-ms="17893" started-at="2022-01-25T18:44:46Z" description="Verify new status on wall" depends-on-methods="com.faceBookTestCases.FaceBookTest.loginUser" finished-at="2022-01-25T18:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postStatus -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="afterMethod" is-config="true" duration-ms="13" started-at="2022-01-25T18:45:04Z" finished-at="2022-01-25T18:45:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postStatus status=SUCCESS method=FaceBookTest.postStatus(java.lang.String, java.lang.String)[pri:1, instance:com.faceBookTestCases.FaceBookTest@63e2203c] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="afterTest" is-config="true" duration-ms="725" started-at="2022-01-25T18:45:04Z" finished-at="2022-01-25T18:45:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown(java.lang.String, java.lang.String)[pri:0, instance:com.faceBookTestCases.FaceBookTest@63e2203c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-01-25T18:45:05Z" finished-at="2022-01-25T18:45:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ProductionEnvironment]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.faceBookTestCases.FaceBookTest -->
+    </test> <!-- Facebook test case -->
+  </suite> <!-- WalletHub - Assignment #1 -->
+</testng-results>
